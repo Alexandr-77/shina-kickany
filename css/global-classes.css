@@ -1,0 +1,123 @@
+.container {
+  max-width: 1370px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-1070 {
+  max-width: 1070px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-1070 {
+  max-width: 1070px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.padd {
+  padding: 60px 0 60px;
+  min-height: 300px;
+}
+.title {
+  font-size: 36px;
+  line-height: 125%;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
+}
+.subtitle {
+  font-size: 32px;
+  line-height: 105%;
+  font-weight: 500;
+  color: var(--text);
+}
+.freetitle {
+  font-size: 20px;
+  line-height: 105%;
+  font-weight: 500;
+  color: var(--text);
+}
+.text {
+  font-family: "Gotham Pro";
+  font-size: 15px;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--text);
+}
+.text-repeat {
+  font-size: 20px;
+  line-height: 150%;
+}
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 118%;
+  padding: 25px 56px;
+  letter-spacing: 1.38px;
+  color: var(--text-w);
+  border-radius: 90px;
+  background: var(--text);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #3656b6;
+}
+
+/* ====== Медиа 1140px ====== */
+@media (max-width: 1140px) {
+  .subtitle {
+    font-size: 26px;
+  }
+}
+/* ====== Медиа 990px ====== */
+@media (max-width: 990px) {
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 26px;
+  }
+}
+/* ====== Медиа 768px ====== */
+@media (max-width: 768px) {
+  .title {
+    font-size: 38px;
+  }
+}
+/* ====== Медиа 650px ====== */
+@media (max-width: 650px) {
+  .subtitle {
+    font-size: 24px;
+  }
+}
+/* ====== Медиа 450px ====== */
+@media (max-width: 450px) {
+  .padd {
+    padding: 50px 0 50px;
+  }
+  .title {
+    font-size: 8vw;
+  }
+  .freetitle {
+    font-size: 18px;
+  }
+}
+/* ====== Медиа 400px ====== */
+@media (max-width: 400px) {
+  .padd {
+    padding: 50px 0 50px;
+  }
+  .btn {
+    padding: 25px 56px;
+  }
+  .freetitle {
+    font-size: 17px;
+  }
+}
+
