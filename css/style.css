@@ -132,6 +132,9 @@ li {
     transition: transform .3s ease, filter .3s ease;
 }
 
+.header__top-tel-link:hover {
+    color: var(--yellow-hover);
+}
 .header__top-tel-link:hover .phone-icon,
 .header__menu-phone:hover .phone-icon {
     transform: scale(1.1);
@@ -557,21 +560,31 @@ li {
 .footer__box-author {
     font-size: 13px;
 }
-
-.footer__box-author a {
-    color: var(--yellow);
-}
-
-.footer__box-author a:hover {
-    color: var(--white);
+.footer__box-contakts a:hover {
+    color: var(--yellow-hover);
 }
 
 .footer__box-contakts img {
     width: 15px;
     margin-right: 9px;
     vertical-align: middle;
+    filter: brightness(0) invert(1);
+    transition: transform .3s ease, filter .3s ease;
+}
+.footer__box-contakts a:hover  img {
+    filter: brightness(0) invert(1);
+    transition: transform .3s ease, filter .3s ease;
+    filter: brightness(0) saturate(100%) invert(83%) sepia(98%) saturate(1000%) hue-rotate(2deg) brightness(104%);
+    transform: scale(1.16) translateY(-2px);
 }
 
+.footer__box-author a {
+    color: var(--yellow);
+}
+
+.footer__box-author a:hover {
+    color: var(--yellow-hover);
+}
 @media (max-width: 990px) {
     .header__block-nav {
         display: none;
