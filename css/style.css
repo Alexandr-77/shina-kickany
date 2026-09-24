@@ -137,7 +137,7 @@ li {
 }
 .header__top-tel-link:hover .phone-icon,
 .header__menu-phone:hover .phone-icon {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .header__top-ikon a {
