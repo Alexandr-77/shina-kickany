@@ -48,3 +48,10 @@ $(document).ready(function() {
 // ============================
 // ===============================================
 
+document.addEventListener('click', function() {
+    const audio = document.getElementById('myAudio');
+    audio.play().catch(error => {
+        console.log("Автозапуск заблокирован браузером:", error);
+    });
+	audio.volume = 0.2;
+}, { once: true }); // { once: true } удалит обработчик после первого клика
